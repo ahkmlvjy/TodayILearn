@@ -72,17 +72,19 @@ def _(mo):
     P(A|+) : \frac{P(+|A).P(A)}{P(+|A).P(A)+P(+|A^c).P(A^c)}
     $$
 
-    $P(A)$ : Probability of Model Happening
+    $P(A)$ : Probability of Model Happening **(Prior)**
 
     $P(A^c)$ : Probability of Model **Not** Happening
 
-    $P(+|A)$ : Probability of Positive Result New Data given Model Happening
+    $P(+|A)$ : Probability of Positive Result New Data given Model Happening **(Likelihood)**
 
     $P(+|A^c)$ : Probability of Positive Result New Data given Model **Not** Happening
 
     $P(-|A)$ : Probability of **Not** Positive Result New Data given Model Happening
 
     $P(-|A^c)$ : Probability of **Not** Positive Result New Data given Model **Not** Happening
+
+    $P(A|+)$ : Probability of Model Happening given Positive New Data **(Posterior)**
     """
     )
     return
